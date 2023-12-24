@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Color_js.js" defer></script>
+    <link rel="stylesheet" href="Color_style.css">
+</head>
+
+<body>
+    <div id="telo">
+        <form action="" method="get">
+            <h3><b>Create new color</b></h3>
+            <p class="lef">Color:</p>
+            <p id="exc1"></p>
+            <input type="text" id="name" style="background-color: white;">
+            <p class="lef">Type:</p>
+            <select class="typ" style="background-color: white; width: 170px;">
+                <option value="RGB" id="rgb">RGB</option>
+                <option value="RGBA" id="rgba">RGBA</option>
+                <option value="HEX" id="hex">HEX</option>
+            </select>
+            <p class="lef">Code:</p>
+            <p id="exc2"></p>
+            <input type="text" id="code" style="background-color: white;">
+        </form>
+        <button id="btn">Save</button>
+        <h3><b>All colors</b></h3>
+        <div id='my'>
+            <div class="app">
+                <div class="color clr" style="background-color: yellowgreen;">
+                    <div class="inside">
+                        <span>YELLOWGREEN</span><br>
+                        <span>RGB</span><br>
+                        <span>154,205,50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

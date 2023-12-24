@@ -1,0 +1,31 @@
+*{
+    background-color: bisque;
+}
+#telo{
+    text-align: center;
+}
+#btn{
+    margin: 10px;
+    background-color: grey;
+}
+.color{
+    width: auto;
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    margin: 7px;
+}
+.inside{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    vertical-align: middle;
+}
+.inside span{
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
